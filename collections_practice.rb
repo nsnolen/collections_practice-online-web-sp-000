@@ -40,5 +40,5 @@ array.sum
 end
 
 def add_s(number, array)
-array.pluralize if number != 1
+array.pluralize
 end
