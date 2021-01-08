@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(array)
   array.sort
 end
@@ -29,9 +30,10 @@ def kesha_maker(array)
   tictoc= []
   while i < array.length
   yield(array[i])
+  
     i = i + 1
   end
- array
+ array[3] = array["$"]
 end
 
 kesha_maker(["blake", "ashley", "scott"]) {|name| "name"}
