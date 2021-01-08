@@ -33,7 +33,7 @@ def kesha_maker(array)
 
     i = i + 1
   end
- array[3] = "$"
+ array
 end
 
-kesha_maker(["blake", "ashley", "scott"]) {|name| "name"}
+kesha_maker(["blake", "ashley", "scott"]) {|name| name[3] = "$"}
