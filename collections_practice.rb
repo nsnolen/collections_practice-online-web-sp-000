@@ -26,6 +26,7 @@ end
 
 def kesha_maker(array)
   i = 0
+  tictoc= []
   while i < array.length
   tictoc << yield(array[i])
     i = i + 1
