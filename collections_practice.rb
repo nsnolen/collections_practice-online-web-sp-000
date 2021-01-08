@@ -34,5 +34,5 @@ def kesha_maker(array)
     i = i + 1
   end
  array
-
+end
 kesha_maker(["blake", "ashley", "scott"]) {|name| name.gsub([3], "$")}
