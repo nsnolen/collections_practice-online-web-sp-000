@@ -41,4 +41,4 @@ kesha_maker(["blake", "ashley", "scott"]){|name| name[3] = "$"}
   #arr = []
   #array.each{|word| arr << word[3] = "$"}
 #  arr
-#end
+# end
