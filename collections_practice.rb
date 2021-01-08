@@ -31,7 +31,7 @@ def kesha_maker(array)
   tictoc << yield(array[i])
     i = i + 1
   end
- tictoc
+ tictoc.join
 end
 
 kesha_maker(["blake", "ashley", "scott"]) {|name| name[3] = name["$"]}
