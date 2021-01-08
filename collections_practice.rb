@@ -31,7 +31,7 @@ def kesha_maker(array)
     yield(array[i])
     i = i + 1
   end
- array[3] = array["$"]
+ array[3].join("") = array["$"]
 end
 
 kesha_maker(["blake", "ashley", "scott"]){|name|}
