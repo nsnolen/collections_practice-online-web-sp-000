@@ -36,8 +36,8 @@ array
 end
 kesha_maker(["blake", "ashley", "scott"]).each {|name| name[3] = "$"}
 
-def kesha_maker(array)
-  arr = []
-  array.each{|word| arr << word[3] = "$"}
-  arr
-end
+#def kesha_maker(array)
+  #arr = []
+  #array.each{|word| arr << word[3] = "$"}
+#  arr
+#end
