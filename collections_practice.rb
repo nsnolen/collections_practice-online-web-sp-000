@@ -30,7 +30,7 @@ def kesha_maker(array)
   tictoc= []
   while i < array.length
   yield(array[i])
-  
+
     i = i + 1
   end
  array[3] = array["$"]
