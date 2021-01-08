@@ -34,4 +34,4 @@ def kesha_maker(array)
  tictoc
 end
 
-kesha_maker(["blake", "ashley", "scott"]){|name| "name"}
+kesha_maker(["blake", "ashley", "scott"]){|name| puts "name"}
