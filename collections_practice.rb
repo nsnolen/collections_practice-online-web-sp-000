@@ -37,5 +37,5 @@ end
 
 def sum_array(array)
 sum = 0
-array.each{|word| sum += word}
+array.each{|a| sum += a}
 end
