@@ -38,4 +38,3 @@ end
 
 kesha_maker(["blake", "ashley", "scott"]) {|name| name[3] = name["$"]}
 "name"
-
