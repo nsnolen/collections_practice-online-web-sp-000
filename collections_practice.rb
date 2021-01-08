@@ -38,6 +38,7 @@ end
 #kesha_maker(["blake", "ashley", "scott"]) {|name| string.name.gsub(}
 
 def kesha_maker(array)
-  array.split.each{|word| word[3] = "$"}
-  array.join("")
+  arr = []
+  array.split.each{|word| arr << word[3] = "$"}
+  arr.join("")
 end
