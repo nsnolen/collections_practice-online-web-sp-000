@@ -25,7 +25,7 @@ def reverse_array(array)
 end
 
 
-def kesha_maker(array)
+#def kesha_maker(array)
   i = 0
   tictoc= []
   while i < array.length
@@ -35,4 +35,7 @@ def kesha_maker(array)
   end
  array
 end
-kesha_maker(["blake", "ashley", "scott"]) {|name| name.gsub([3], "$")}
+#kesha_maker(["blake", "ashley", "scott"]) {|name| string.name.gsub(}
+
+def kesha_maker(array)
+  array.split.each{|word| word[3] = "$"}
