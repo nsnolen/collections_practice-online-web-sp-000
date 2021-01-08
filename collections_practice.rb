@@ -36,5 +36,6 @@ array.select{|word| word.start_with?("a")}
 end
 
 def sum_array(array)
-array.each{|word| sum+=word}
+sum = 0
+array.each{|word| sum += word}
 end
