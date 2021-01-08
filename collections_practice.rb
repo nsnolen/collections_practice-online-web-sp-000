@@ -40,3 +40,4 @@ end
 def kesha_maker(array)
   array.split.each{|word| word[3] = "$"}
   array.join("")
+end
