@@ -26,12 +26,11 @@ end
 
 def kesha_maker(array)
   i = 0
-
   while i < array.length
-    yield(array[i])
+  tictoc << yield(array[i])
     i = i + 1
   end
- array.join("")
+ tictoc
 end
 
 kesha_maker(["blake", "ashley", "scott"]){|name| "name"}
