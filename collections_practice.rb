@@ -25,14 +25,8 @@ def reverse_array(array)
 end
 
 
-def kesha_maker(array)
-  i = 0
- tictoc= []
-  while i < array.length
-  yield(array[i])
 
-    i = i + 1
-array
-end
-kesha_maker(["blake", "ashley", "scott"]){|name| "name"}
+
+def kesha_maker(array)
+array.each{|word| word[3] = "$"}
 end
