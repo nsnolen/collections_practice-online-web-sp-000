@@ -39,6 +39,6 @@ def sum_array(array)
 array.sum
 end
 
-def add_s(number, array)
+def add_s(array)
 array.pluralize
 end
