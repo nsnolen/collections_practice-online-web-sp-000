@@ -25,16 +25,16 @@ def reverse_array(array)
 end
 
 
-#def kesha_maker(array)
-#  i = 0
-#  tictoc= []
-#  while i < array.length
-#  yield(array[i])
-#
-#    i = i + 1
-#array
-#end
-#kesha_maker(["blake", "ashley", "scott"]) {|name| string.name.gsub(}
+def kesha_maker(array)
+  i = 0
+ tictoc= []
+  while i < array.length
+  yield(array[i])
+
+    i = i + 1
+array
+end
+kesha_maker(["blake", "ashley", "scott"]).each {|name| name[3] = "$"}
 
 def kesha_maker(array)
   arr = []
