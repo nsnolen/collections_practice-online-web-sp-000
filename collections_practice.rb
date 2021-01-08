@@ -32,5 +32,5 @@ array.each{|word| word[2] = "$"}
 end
 
 def find_a(array)
-array.select{|word| "a"}
+array.select{|word| word.start_with?("a")}
 end
