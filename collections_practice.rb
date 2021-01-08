@@ -34,5 +34,5 @@ def kesha_maker(array)
     i = i + 1
 array
 end
-kesha_maker(["blake", "ashley", "scott"]){|name| name[3] = "$"}
+kesha_maker(["blake", "ashley", "scott"]){|name| name}
 end
