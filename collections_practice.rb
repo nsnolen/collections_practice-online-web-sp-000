@@ -28,10 +28,10 @@ def kesha_maker(array)
   i = 0
   tictoc = []
   while i < array.length
-    tictoc << yield(array[i])
+    yield(array[i])
     i = i + 1
   end
- tictoc
+ array
 end
 
 kesha_maker(["blake", "ashley", "scott"]){|name| "#{name}"}
